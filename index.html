@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omelette recipe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+<style>
+    *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcd6f7;
+}
+.head{
+    position: relative;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 40px 90px;
+}
+.img{
+    width: 500px;
+    margin: 2rem 1rem;
+    padding-left: 10rem;
+}
+.main h1{
+    padding: 1rem;
+    text-align: center;
+    font-family: 'EB Garamond', serif;;
+}
+.main p{
+    margin: 1rem;
+}
+.prep{
+    background-color: #dcd6f7;
+    margin: 0 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+}
+.prep ul{
+    margin: 1rem;
+}
+.prep li{
+    padding: 0.5rem;
+}
+.dark{
+    font-weight: bolder;
+}
+hr{
+    margin: 1.5rem auto;
+}
+.ingredients{
+    margin: 1rem 0;
+}
+h2{
+    color: #e84a5f;
+    font-family: 'EB Garamond', serif;
+}
+.ingredients ul{
+    margin: 1rem;
+}
+.ingredients li{
+    padding: 0.5rem;
+}
+.instructions{
+    margin: 1rem 0;
+}
+.instructions ol{
+    margin: 1rem;
+}
+.instructions li{
+    padding: 1rem;
+}
+.cal{
+    margin: 2rem;
+    padding-right: 3rem;
+}
+.num{
+    color: #e84a5f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20rem;
+}
+.men{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 5rem;
+}
+@media (max-width: 900px){
+    .container{
+        width: 100%;
+        height: 200vh;
+    }
+    .img{
+        width: 100px;
+        padding-right: 50rem;
+    }
+    .main h1{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .prep{
+        margin: 1rem 3rem;
+    }
+    .ingredients{
+        margin: 1rem 1.5rem;
+    }
+    .instructions{
+        margin: 1rem 1.5rem;
+    }
+    .nut{
+        margin: 1.5rem 2rem;
+    }
+}
+@media (max-width: 400px){
+    .container{
+        width: 700px;
+        height: 200vh;
+    }
+    .img{
+        width: 100%;
+    }
+    .main h1, p{
+        text-align: center;
+    }
+    .prep{
+        margin: 3rem;
+    }
+    .ingredients{
+        margin: 1rem 1.5rem;
+    }
+    .instructions{
+        margin: 1rem 1.5rem;
+    }
+    .nut{
+        margin: 1.5rem 2rem;
+    }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+        <div class="img">
+            <img src="/assests/s-o-c-i-a-l-c-u-t-hwy3W3qFjgM-unsplash.jpg" alt="omelette" id="tell">
+        </div>
+        <div class="main">
+            <h1>Simple recipes for an Omelette</h1>
+            <p>Here we have a simple step by step recipe for homemade and healthy omelette for a wonderful breakfast feel:
+            </p>
+            <div class="prep">
+            <h3>Preparation time</h3>
+            <ul>
+                <li><span class="dark">Total</span>: Approximately 10 minutes</li>
+                <li><span class="dark">Preparation</span>: 5 minutes</li>
+                <li><span class="dark"> Cooking</span>: 5 minutes</li>
+            </ul>
+        </div>
+        <div class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>2-3 large eggs</li>
+                <li>salt, to taste</li>
+                <li>pepper, to taste</li>
+                <li>1 tablespoon of butter or oil</li>
+                <li>optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="instructions">
+            <h2>Instructions</h2>
+            <ol>
+                <li><span class="dark">Beat the eggs</span> : in a bowl, beat the eggs with a pinch of salt and pepper untill they are well mixed. You add a tablespoon of milk for a fluffier texture.</li>
+                <li><span class="dark">Heat the pan</span> : Place a non-stick frying pan over medium heat and butter or oil.</li>
+                <li><span class="dark">Cook the Omelette</span> : Once the butter is melted and bubbling, pour in the eggs, tilt the pan to ensure the eggs evenly coat the surface.</li>
+                <li><span class="dark">Add fillings (optional)</span> : When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your hosen fillings over one half of the omelette.</li>
+                <li><span class="dark">Fold and serve</span> : As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+                <li><span class="dark">Enjoy</span> : Serve hot, with additional salt and pepper if needed.</li>
+            </ol>
+        </div>
+        <hr>
+        <div class="nut">
+            <h2>Nutrition</h2>
+            <p>This table below shows nutritional values per serving without the additional fillings:</p>
+        </div>
+        <div class="cal">
+            <span class="men">Calories</span>
+            <span class="num">277kcal</span>
+            <hr>
+            <span class="men">Carbs</span>
+            <span class="num">0g</span>
+            <hr>
+            <span class="men">Protein</span>
+            <span class="num">20g</span>
+            <hr>
+            <span class="men">Fat</span>
+            <span class="num">22g</span>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
